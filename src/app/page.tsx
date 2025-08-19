@@ -7,15 +7,17 @@ import IptTurmas from "./componentes/iptTurmas";
 import IptObservacao from "./componentes/iptObservacoes";
 import BtnEnviar from "./componentes/buttonEnviar";
 import IptDiasTurnoAtualizado from "./componentes/iptDiasTunoAtualizado";
+import { materiaPorTurmas } from "./componentes/materiasPorPeriodo";
 
 
 export default function Home() {
   //VARIAVEIS GLOBAIS DOS COMPONENTES
   const [valueNome, setValueNome] = useState('')
   const [valueRegTrab, setValueRegTrab] = useState('')
-  const [valueObs,setValueObs] = useState('')
   const [selecionados, setSelecionados] = useState<Record<string, boolean>>({})
-
+  const [valueObs,setValueObs] = useState('')
+  const materias = materiaPorTurmas["INF-211"]
+  console.log(materias)
   return (
     <div className="flex flex-col w-[60%]">
       <InputName value={valueNome} setValueNome={setValueNome}/>
