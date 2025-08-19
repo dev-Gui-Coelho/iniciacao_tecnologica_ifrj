@@ -1,4 +1,4 @@
-export const materiaPorTurmas = {
+export const materiaPorTurmas: Record<string, string[]> = {
             "INF-211": [
                 "Artes I",
                 "Biologia I",
@@ -90,4 +90,105 @@ export const materiaPorTurmas = {
                 "Língua Espanhola I",
                 "Língua Espanhola II",
                 "Língua Espanhola III",
-            ],}
+            ],
+            "MAM-111": [
+                "Artes I",
+                "Biologia I",
+                "Educação Física I",
+                "Ética e Educação Ambiental",
+                "Filosofia I",
+                "Geografia I",
+                "História I",
+                "Legislação Ambiental I",
+                "Língua Portuguesa e Literatura Brasileira I",
+                "Matemática I",
+                "Química Geral I",
+                "Segurança, Meio Ambiente e Saúde",
+                "Sociologia I"
+            ],
+            "MAM-121": [
+                "Artes II",
+                "Biologia II",
+                "Educação Física II",
+                "Filosofia II",
+                "Física I",
+                "Geografia Física",
+                "Geografia II",
+                "História II",
+                "Legislação Ambiental II",
+                "Língua Portuguesa e Literatura Brasileira II",
+                "Matemática II",
+                "Química Geral II",
+                "Sociedade e Natureza I",
+                "Sociologia II",
+                "Técnicas Físico-Químicas de Separação"
+            ],
+            "MAM-131": [
+                "Biologia III",
+                "Educação Física III",
+                "Filosofia III",
+                "Física II",
+                "História III",
+                "Informática Aplicada",
+                "Inglês Instrumental I",
+                "Introdução aos Sistemas de Informação Geográfica",
+                "Língua Portuguesa e Literatura Brasileira III",
+                "Matemática III",
+                "Princípios de Conservação da Natureza",
+                "Química Orgânica",
+                "Sociedade e Natureza II",
+                "Sociologia III"
+            ],
+            "MAM-141": [
+                "Biologia IV",
+                "Climatologia",
+                "Educação Física IV",
+                "Filosofia IV",
+                "Física III",
+                "Físico-Química I",
+                "Gerenciamento de Resíduos Sólidos",
+                "História IV",
+                "Identificação e Avaliação de Impactos Ambientais",
+                "Inglês Instrumental II",
+                "Língua Portuguesa e Literatura Brasileira IV",
+                "Matemática IV",
+                "Recursos Hídricos",
+                "Sociologia IV"
+            ],
+            "MAM-151": [
+                "Biologia V",
+                "Ecologia e Ecossistemas Costeiros",
+                "Educação Física V",
+                "Elaboração de Projetos",
+                "Filosofia V",
+                "Física IV",
+                "Físico-Química II",
+                "História V",
+                "Inglês Instrumental III",
+                "Língua Portuguesa e Literatura Brasileira V",
+                "Matemática V",
+                "Movimentos Sociais e Meio Ambiente I",
+                "Química Analítica I",
+                "Sistemas de Gestão Ambiental e Sustentabilidade I"
+            ],
+            "MAM-161": [
+                "Biologia VI",
+                "Educação Física VI",
+                "Filosofia VI",
+                "Física V",
+                "Geografia III",
+                "História VI",
+                "Inglês Instrumental IV",
+                "Língua Portuguesa e Literatura Brasileira VI",
+                "Matemática VI",
+                "Movimentos Sociais e Meio Ambiente II",
+                "Química Analítica II",
+                "Sistemas de Gestão Ambiental e Sustentabilidade II"
+            ],
+            "MAM-OPT": [
+                "Espanhol I",
+                "Espanhol II",
+                "Espanhol III"
+            ]
+            
+,}

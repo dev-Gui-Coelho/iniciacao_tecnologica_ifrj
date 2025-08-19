@@ -3,9 +3,10 @@ type btnEnviarProps = {
     valueObs:string
     valueRegTrab: string
     valueSelecionados : any
+    valueMaterias : any
 }
-export default function BtnEnviar({valueNome, valueRegTrab ,valueObs, valueSelecionados}: btnEnviarProps){
-    
+export default function BtnEnviar({valueNome, valueRegTrab ,valueObs, valueSelecionados, valueMaterias}: btnEnviarProps){
+    const checksSelect = Object.keys(valueSelecionados)
     return(
         <>
             <button 
@@ -16,7 +17,8 @@ export default function BtnEnviar({valueNome, valueRegTrab ,valueObs, valueSelec
                 let dados = [
                     {valueNome},
                     {valueRegTrab},
-                    {valueSelecionados},
+                    {checksSelect},
+                    {valueMaterias},
                     {valueObs}
                 ]
                 console.log(dados)
