@@ -243,6 +243,57 @@ export const materiaPorTurmas: Record<string, string[]> = {
                 "Governança Socioambiental",
                 "Seminários de Pesquisa e Extensão",
                 "Libras"
+            ],
+            "TRC-311": [
+                "Redes de Computadores I",
+                "Organização de Computadores",
+                "Metodologia Cientifica",
+                "Inglês Instrumental I",
+                "Matemática para Computação I",
+                "Português Instrumental I"
+            ],
+            "TRC-321": [
+                "Redes de Computadores II",
+                "Introdução a Sistemas Operacionais",
+                "Pesquisa, Tecnologia e Sociedade",
+                "Algoritmos",
+                "Inglês Instrumental II",
+                "Matemática para Computação II",
+                "Português Instrumental II"
+            ],
+            "TRC-331": [
+                "Redes de Computadores III",
+                "Sistemas Operacionais I",
+                "Filosofia da Técnica",
+                "Linguagem de Programação",
+                "Sistemas para Internet"
+            ],
+            "TRC-341": [
+                "Redes de Computadores IV",
+                "Sistemas Operacionais II",
+                "Segurança em Redes de Computadores",
+                "Banco de Dados",
+                "Princípios de Segurança da Informação"
+            ],
+            "TRC-351": [
+                "Administração de Redes e Servidores",
+                "Sistemas Operacionais III",
+                "Projeto Integrador I",
+                "Tópicos Especiais em Tecnologia da Informação I",
+                "Empreendedorismo"
+            ],
+            "TRC-361": [
+                "Gerencia de Redes",
+                "Projeto Integrador II",
+                "Governança de TI",
+                "Tópicos Especiais em Tecnologia da Informação II",
+            ],
+            "TRC-OPT": [
+                "Programação Orientada a Objetos",
+                "Internet das Coisas - IoT",
+                "Estrutura de Dados",
+                "Cabeamento Estruturado",
+                "Projeto de Sistemas"
             ]
 }
 
