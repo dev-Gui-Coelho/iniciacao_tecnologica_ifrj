@@ -34,13 +34,14 @@ export default function IptTurmasAtt({turmas_select, setLista}: propsListaMateri
     { value: "18", label:'TRC-341' },
     { value: "19", label:'TRC-351' },
     { value: "20", label:'TRC-361' },
-    { value: "21", label:'TGA', disabled: true },
-    { value: "22", label:'TGA-311' },
-    { value: "23", label:'TGA-321' },
-    { value: "24", label:'TGA-331' },
-    { value: "25", label:'TGA-341' },
-    { value: "26", label:'TGA-351' },
-    { value: "27", label:'TGA-361' },
+    { value: "21", label:'TRC-OPT' },
+    { value: "22", label:'TGA', disabled: true },
+    { value: "23", label:'TGA-311' },
+    { value: "24", label:'TGA-321' },
+    { value: "25", label:'TGA-331' },
+    { value: "26", label:'TGA-341' },
+    { value: "27", label:'TGA-351' },
+    { value: "28", label:'TGA-OPT' },
 ]   
     const lista_materias = materiaPorTurmas
     const add_turmas = () => {
