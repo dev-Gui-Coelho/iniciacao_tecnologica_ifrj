@@ -189,6 +189,60 @@ export const materiaPorTurmas: Record<string, string[]> = {
                 "Espanhol I",
                 "Espanhol II",
                 "Espanhol III"
+            ],
+            "TGA-311": [
+                "Fontes de Energia e Eficiência Energética",
+                "Geomorfologia e Hidrografia",
+                "Inglês Instrumental",
+                "Introdução á Gestão Ambiental" ,
+                "Metodologia Cientifica",
+                "Português Instrumental ",
+                "Química Geral e Ambiental" ,
+            ],
+            "TGA-321": [
+                "Direito Ambiental Aplicado",
+                "Ecologia Geral",
+                "Economia Ambiental e Solidária",
+                "Educação Ambiental",
+                "Estatística Aplicada",
+                "Gestão de Recursos Hídricos e Saneamento",
+                "Saúde e Segurança Ambiental"
+            ],
+            "TGA-331": [
+                "Cartografia e Geoprocessamento",
+                "Ecologia Politica",
+                "Ecologia de Ecossistemas Costeiros",
+                "Introdução a Gestão Pública",
+                "Mudanças Climáticas e Adaptação",
+                "Produção e Consumo Responsáveis",
+                // "Optativa 1"
+            ],
+            "TGA-341": [
+                "Direitos Humanos e Justiça Ambiental",
+                "Elaboração de Projetos Acadêmicos e Ambientais",
+                "Planejamento Urbano e Cidades Sustentáveis",
+                "Princípios de Conservavação da Natureza",
+                "Química Analítica",
+                "Tratamento de Agua, Enfluentes Sanitários e Industriais",
+                // "Optativa 2"
+            ],
+            "TGA-351": [
+                "Gerenciamento de Resíduos Sólidos",
+                "Gerenciamento de Resíduos Ambiental",
+                "Gestão Ambiental e Auditoria",
+                "Tecnologias Aplicadas",
+                "Tópicos Especiais em Gestão Ambiental",
+                "Atividades de Pesquisa e Extensão",
+                // "Optativa 3"
+            ],
+            "TGA-OPT": [
+                "Historia Agroambiental Comparada",
+                "Populações Tradicionais e Territórios",
+                "Agroecologia",
+                "Globalização e Multiculturalismo",
+                "Governança Socioambiental",
+                "Seminários de Pesquisa e Extensão",
+                "Libras"
             ]
-            
-,}
+}
+
