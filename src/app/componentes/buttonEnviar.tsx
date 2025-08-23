@@ -22,10 +22,7 @@ export default function BtnEnviar({valueNome, valueRegTrab ,valueObs, valueSelec
                     {valueObs}
                 ]
                 console.log(dados)
-            }}
-            
-            >Enviar</button>
-            
+            }}>Enviar</button>
         </>
     )
 }
