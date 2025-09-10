@@ -10,7 +10,7 @@ export default function IptDiasTurnoAtualizado({selecionados, setSelecionados}:c
     const turnos = [
         {label: "Manhã (07:30 às 12:00)", key: "Manha"},
         {label: "Tarde (13:00 às 18:30)", key: "Tarde"},
-        {label: "Noite (18:0 às 22:10)", key: "Noite"},
+        {label: "Noite (18:00 às 22:10)", key: "Noite"},
     ];
 
     const handleCheckbox = (dia:string, turno:string, checked:boolean)=>{
