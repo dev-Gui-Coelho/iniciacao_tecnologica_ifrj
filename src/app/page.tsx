@@ -24,21 +24,39 @@ export default function Home() {
                   w-[100vw]
                   h-[15vh]
                   flex
-                  justify-around">
+                  justify-between
+                  ">
 
-        <a href="https://www.ifrj.edu.br/" target="_blank">
+        <a href="https://www.ifrj.edu.br/" target="_blank" className="
+                  ml-[5%]
+                  flex
+                  items-center">
           <img src="/assets/ifrj-logo.png" alt="logo IFRJ"/>
         </a>
         <div className="
-                flex
-                flex-row
-                items-center
-                gap-[25%]">
-                  
-          <img src="/assets/instagram.png" alt="" className="w-[25px] h-[25px]"/>
-          <img src="/assets/facebook.png" alt="" className="w-[25px] h-[25px]"/>
-          <img src="/assets/linkedin.png" alt="" className="w-[25px] h-[25px]"/>
-          <img src="/assets/youtube.png" alt="" className="w-[25px] h-[25px]"/>
+                  w-[25%]
+                  flex
+                  flex-row
+                  items-center
+                  gap-[5%]
+                  pl-[5%]">
+
+          <a href="https://www.facebook.com/ifrj.oficial" target="_blank">
+            <img src="/assets/facebook.png" alt="Icone Linkedin" className="w-[30px] h-auto"/>
+          </a>
+
+          <a href="https://www.instagram.com/ifrj.oficial" target="_blank">
+            <img src="/assets/instagram.png" alt="Icone Linkedin" className="w-[30px] h-auto"/>
+          </a>
+
+          <a href="https://www.linkedin.com/school/ifrjoficial/posts/?feedView=all" target="_blank">
+            <img src="/assets/linkedin.png" alt="Icone Linkedin" className="w-[30px] h-auto"/>
+          </a>
+
+          <a href="https://www.youtube.com/channel/UCYpGmXMywnhz8yNbQ__mUZg" target="_blank">
+            <img src="/assets/youtube.png" alt="Icone Youtube" className="w-[30px] h-auto"/>
+          </a>
+          
         </div>
       </section>
       <div>
@@ -47,15 +65,17 @@ export default function Home() {
                   flex-col
                   xl:w-[45vw]
                   sm:w-[75vw]
-                  h-[75vh]
+                  h-auto
                   bg-[#428829]
                   rounded-[46px]
                   ml-[64px]
                   mt-[20px]
-                  shadow-[2px_7px_15px_#777777]">
+                  shadow-[2px_7px_15px_#777777]
+                  pl-[4%]
+                  pt-[4%]">
 
 
-          <InputName value={valueNome} setValueNome={setValueNome} />
+          <InputName value={valueNome} setValueNome={setValueNome}/>
           <IptRegimeTrab value={valueRegTrab} setValueRegTrab={setValueRegTrab} />
           <IptDiasTurnoAtualizado selecionados={selecionados} setSelecionados={setSelecionados} />
           <IptTurmasAtt turmas_select={turmas_select} setLista={setLista} />

@@ -19,10 +19,11 @@ export default function BtnEnviar({valueNome, valueRegTrab ,valueObs, valueSelec
                     {valueRegTrab},
                     {checksSelect},
                     {valueMaterias},
-                    {valueObs}
+                    {valueObs},
                 ]
                 console.log(dados)
             }}>Enviar</button>
+            
         </>
     )
 }

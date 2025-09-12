@@ -16,14 +16,22 @@ export default function InputName({value, setValueNome}:varNameProps){
     return (
         <>
             <label 
-                htmlFor="iptName">Digite seu nome completo:</label>
+                htmlFor="iptName"
+                className="
+                    text-white
+                    text-[18px]">Digite seu nome completo:</label>
             <input 
                 type="text" 
                 id="iptName" 
                 value={value} 
                 onChange={(e)=>setValueNome(e.target.value)} 
-                className="border-1 
-                            w-[50%]"/>
+                className="border-white
+                            border-b-1
+                            outline-0
+                            w-[50%]
+                            text-white
+                            mb-[3%]
+                            mt-[1%]"/>
         </>
     )
 }
