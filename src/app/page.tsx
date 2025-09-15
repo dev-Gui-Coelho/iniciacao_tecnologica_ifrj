@@ -59,7 +59,8 @@ export default function Home() {
           
         </div>
       </section>
-      <div>
+      <div className="flex
+      flex-row">
         <section className="
                   flex
                   flex-col
@@ -68,7 +69,7 @@ export default function Home() {
                   h-auto
                   bg-[#428829]
                   rounded-[46px]
-                  ml-[64px]
+                  ml-[70px]
                   mt-[20px]
                   shadow-[2px_7px_15px_#777777]
                   pl-[4%]
@@ -82,6 +83,15 @@ export default function Home() {
           <IptObservacao value={valueObs} setValueObs={setValueObs} />
           <BtnEnviar valueNome={valueNome} valueRegTrab={valueRegTrab} valueMaterias={turmas_select} valueObs={valueObs} valueSelecionados={selecionados} />
         </section>
+
+        <section className="
+                w-[45%]
+                flex
+                items-center
+                justify-center">
+          <img src="/assets/bg-img.svg" alt="" className="h-[38vh] "/>
+        </section>
+
       </div>
 
     </>

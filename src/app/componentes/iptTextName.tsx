@@ -27,11 +27,16 @@ export default function InputName({value, setValueNome}:varNameProps){
                 onChange={(e)=>setValueNome(e.target.value)} 
                 className="border-white
                             border-b-1
+                            rounded-[6px]
                             outline-0
                             w-[50%]
                             text-white
-                            mb-[3%]
-                            mt-[1%]"/>
+                            mb-[2%]
+                            mt-[1%]
+                            h-[30px]
+                            p-[2%]
+                            shadow-[2px_7px_15px_#245C10]
+                            "/>
         </>
     )
 }

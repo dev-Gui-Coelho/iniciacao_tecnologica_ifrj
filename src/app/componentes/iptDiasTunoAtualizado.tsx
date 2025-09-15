@@ -31,14 +31,14 @@ export default function IptDiasTurnoAtualizado({selecionados, setSelecionados}:c
 
     return(
         <div>
-            <h6>
+            <h6 className="text-white text-[18px] mt-[2%] mb-[5%]">
                 Todos os professoraes deverão assinalar <strong>4 opções de dias por turno</strong> em que leciona:
             </h6>
-            <table>
+            <table className="rounded-[20px] h-[35vh] w-[85%] bg-white">
             <thead>
                 <tr>
                 <th></th>
-                    {turnos.map(turno => <th key={turno.key}>{turno.label}</th>)}
+                    {turnos.map(turno => <th key={turno.key} className="text-black pl-[3%]">{turno.label}</th>)}
                 </tr>
             </thead>
             <tbody>

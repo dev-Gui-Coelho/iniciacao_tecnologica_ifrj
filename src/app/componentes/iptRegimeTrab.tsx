@@ -15,7 +15,7 @@ export default function IptRegimeTrab({value, setValueRegTrab}:regTrabProps){
 
     return(
         <>
-            <h5 className="text-white text-[18px] mb-[2%]">Assinale seu regime de trabalho: </h5>
+            <h5 className="text-white text-[18px] mb-[1%]">Assinale seu regime de trabalho: </h5>
             <div>
                 <label 
                     htmlFor="ipt_regime_hora" className="text-white text-[16px]">20h: </label>
@@ -28,7 +28,8 @@ export default function IptRegimeTrab({value, setValueRegTrab}:regTrabProps){
                     className="
                         w-4
                         h-4
-                        accent-[#428829]"/>
+                        accent-[#428829]
+                        cursor-pointer"/>
             </div>
             <div>
                 <label 
@@ -42,7 +43,8 @@ export default function IptRegimeTrab({value, setValueRegTrab}:regTrabProps){
                     className="
                         w-4
                         h-4
-                        accent-[#428829]"/>
+                        accent-[#428829]
+                        cursor-pointer"/>
                     
             </div>
             <div>
@@ -57,7 +59,8 @@ export default function IptRegimeTrab({value, setValueRegTrab}:regTrabProps){
                     className="
                         w-4
                         h-4
-                        accent-[#428829]"/>
+                        accent-[#428829]
+                        cursor-pointer"/>
                     
             </div>
         </>
