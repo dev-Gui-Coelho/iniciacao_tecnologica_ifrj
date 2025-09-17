@@ -20,6 +20,8 @@ export default function Home() {
 
   return (
     <>
+      <link rel="icon" href="/assets/favicon-ifrj.ico" />
+
       <section id="header" className="
                   w-[100vw]
                   h-[15vh]
@@ -72,7 +74,7 @@ export default function Home() {
                   ml-[70px]
                   mt-[20px]
                   shadow-[2px_7px_15px_#777777]
-                  pl-[4%]
+                  pl-[3%]
                   pt-[4%]">
 
 
@@ -89,7 +91,7 @@ export default function Home() {
                 flex
                 items-center
                 justify-center">
-          <img src="/assets/bg-img.svg" alt="" className="h-[38vh] "/>
+          <img src="/assets/bg-img.svg" alt="" className="h-[38vh] backdrop-opacity-55"/>
         </section>
 
       </div>
