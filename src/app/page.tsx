@@ -75,7 +75,8 @@ export default function Home() {
                   mt-[20px]
                   shadow-[2px_7px_15px_#777777]
                   pl-[3%]
-                  pt-[4%]">
+                  pt-[4%]
+                  pb-[4%]">
 
 
           <InputName value={valueNome} setValueNome={setValueNome}/>

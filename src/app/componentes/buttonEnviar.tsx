@@ -11,7 +11,12 @@ export default function BtnEnviar({valueNome, valueRegTrab ,valueObs, valueSelec
         <>
             <button 
             type="submit" 
-            className="w-[100px] border-1 cursor-pointer px-[4px] rounded-sm mt-3"
+            className="w-[100px] cursor-pointer px-[4px] rounded-sm mt-3  bg-white hover:bg-[#428829] 
+                                hover:border-1
+                                hover:border-white
+                                hover:text-white
+                                transition-all duration-300
+                                shadow-[2px_7px_15px_#245C10]"
             onClick={()=>{
                 //PEGA O VALOR DOS INPUTs (Nome, RegimeTrab, Observação)  E ARMAZENA
                 let dados = [

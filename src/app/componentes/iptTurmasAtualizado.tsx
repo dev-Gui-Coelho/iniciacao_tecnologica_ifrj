@@ -62,10 +62,10 @@ export default function IptTurmasAtt({turmas_select, setLista}: propsListaMateri
 
     return(
         <>
-            <label>Turmas - Após acordo com seus pares, especifique as diciplinas e turmas em que lecionará: 
+            <label className="text-white text-[18px] w-[95%] mt-[4%]">Turmas - Após acordo com seus pares, especifique as diciplinas e turmas em que lecionará: 
             </label>
             <div>
-                <select className="border-black border-1"
+                <select className="border-white border-1 rounded-[6px] text-black bg-white w-[20%] text-center cursor-pointer shadow-[2px_7px_15px_#245C10] mt-[2%] mb-[3%]"
                         value={turmas}
                         onChange={(e)=>{
                             const turma = e.target.value
@@ -77,7 +77,7 @@ export default function IptTurmasAtt({turmas_select, setLista}: propsListaMateri
                         {turmas_list.map((t)=>{
                                     return(
                                         <option
-                                            className="cursor-pointer"
+                                            className="hover:cursor-pointer"
                                             key={t.value}
                                             value={t.label}
                                             disabled={t.disabled || false}>
@@ -86,13 +86,36 @@ export default function IptTurmasAtt({turmas_select, setLista}: propsListaMateri
                                     )
                         })}
                 </select>
-                <button className="cursor-pointer border-1 px-2 rounded-sm ml-3"
+                <button className="
+                                cursor-pointer
+                                border-1-white
+                                px-2 
+                                rounded-[6px] 
+                                ml-3 
+                                bg-white
+                                hover:bg-[#428829] 
+                                hover:border-1
+                                hover:border-white
+                                hover:text-white
+                                transition-all duration-300
+                                shadow-[2px_7px_15px_#245C10]"
+
                         onClick={add_turmas}>Adicionar</button>
                 {materias.length > 0 && (
-                <div className="mt-2">
+                <div className="mt-2 flex w-[95%] flex-wrap gap-[10%]">
                 {materias.map((m) => (
-                    <label key={m} className="block">
+                    <label key={m} className=" block w-[40%] mb-[3%] text-white hover:cursor-pointer">
                     <input
+                        className="
+                                    w-[15px]
+                                    h-[15px]
+                                    border-1
+                                    border-white
+                                    bg-white
+                                    accent-[#428829]
+                                    cursor-pointer
+                                    mb-[2%]
+                                    mr-[1%]"
                         type="checkbox"
                         value={m}
                         checked={materiaSelecionada.includes(m)}
@@ -115,14 +138,14 @@ export default function IptTurmasAtt({turmas_select, setLista}: propsListaMateri
                 <ul>
                         {turmas_select.map((l:string, index:number)=>(
                                 <div key={index} className="flex flex-col w=[100%]">
-                                    <li className="w-[90%] p-[5px] mr-[2px]">
-                                        <span>{l}</span>
-                                        <button className="ml-[5px] cursor-pointer border-1 px-1 rounded-sm"
+                                    <li className="w-[90%] p-[5px] mr-[2px] flex items-center gap-[2%]">
+                                        <span className="text-white">{l}</span>
+                                        <button className="ml-[5px] cursor-pointer"
                                         onClick={()=>{
                                             /*REMOVER TURMA SOLICITADA*/ 
                                             let show_turmas = turmas_select.filter((_:null,i:number)=>i != index)
                                             setLista(show_turmas)
-                                                }}>Remover</button></li>
+                                                }}>{<img src="/assets/trash.png" alt="Icone Lixeira" className="h-auto w-[23px] p-[5%]  ml-[5px] mr-[5px] bg-white rounded-[7px]"/>}</button></li>
                                 </div>
                         ))}
                 </ul>
